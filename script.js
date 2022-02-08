@@ -65,5 +65,8 @@ const personalMovieDB = {
                 personalMovieDB.genres[i - 1] = genre;
             }
         }
+        personalMovieDB.genres.forEach((item, i) => {
+            console.log(`Ваш любимый жанр под номером ${i + 1} - это ${item}`);
+        });
     }
 };
